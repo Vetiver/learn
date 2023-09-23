@@ -1,42 +1,31 @@
-.body {
-    margin: 0;
-    padding: 0;
+.container {
+border: 1px solid green;
+display: flex;
+gap: 40px;
+align-items: center;
+justify-content: center;
 }
 
-.intro {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-top: 174px;
-    padding-bottom: 291px;
-    gap: 4px;
+
+.s1 {
+    width: 50px;
+    height: 50px;
     border: 1px solid red;
-    background-image: url("./img/tom-wheatley-QiJ-jdv-6t0-unsplash.jpg");
-    object-fit: cover;
 }
 
-
-
-.intro__title {
-    margin: 0;
-    padding: 0;
-    color: #FFF;
-    font-family: Playfair Display SC;
-    font-size: 96px;
-    font-style: normal;
-    font-weight: 700;
+.s2 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid blue;
 }
 
-.intro__text {
-    width: 518px;
-    margin: 0;
-    padding: 0;
-    color: #FFF;
-    text-align: center;
-    font-family: Open Sans;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 30px; /* 166.667% */
+.s3 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid blueviolet;
+}
+.s4 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
 }
