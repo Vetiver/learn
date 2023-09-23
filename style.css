@@ -1,0 +1,42 @@
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 174px;
+    padding-bottom: 291px;
+    gap: 4px;
+    border: 1px solid red;
+    background-image: url("./img/tom-wheatley-QiJ-jdv-6t0-unsplash.jpg");
+    object-fit: cover;
+}
+
+
+
+.intro__title {
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+    font-family: Playfair Display SC;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.intro__text {
+    width: 518px;
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 166.667% */
+}
